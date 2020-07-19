@@ -1,0 +1,19 @@
+.leaders {
+  padding-top: 20px;
+  width: 30%;
+  margin: auto;
+  .leaders-item {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    background-color: #34564e38;
+    margin-top: 5px;
+    .winner {
+      font-weight: bold;
+      padding: 8px;
+    }
+    .date {
+      padding: 8px;
+    }
+  }
+}

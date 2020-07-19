@@ -1,0 +1,42 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+
+  span {
+    margin-bottom: 10px;
+  }
+
+  .game-settings {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .btn-field {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .btn-field-blue {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgba(0, 142, 224, 0.712);
+  }
+
+  .btn-field-green {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgba(0, 224, 49, 0.712);
+  }
+
+  .btn-field-red {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgba(224, 0, 11, 0.712);
+  }
+}
